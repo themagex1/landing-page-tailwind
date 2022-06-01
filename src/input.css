@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .polygon {
+        clip-path: polygon(0 0, 100% 0, 76% 100%, 0% 100%);
+    }
+    .diagonalCross {
+        background-image: linear-gradient(to top right,  transparent calc(50% - 1px), black, transparent calc(50% + 1px));
+    }
+
+    
+}
